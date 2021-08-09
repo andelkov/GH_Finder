@@ -2,7 +2,8 @@
 
 Project covers these concepts:
 
-    - Programmatic views
+    - MVC architecture
+    - Programmatically built views
     - Collection view (with pagination and Diffable Data Sources)
     - Dark mode support
     - Embedded view controllers
