@@ -6,7 +6,8 @@ Project covers these concepts:
     - Collection view (with pagination and Diffable Data Sources)
     - Dark mode support
     - Embedded view controllers
-    - Custom-made alert view
+        - swipe to delete cell
+    - Custom-made alert views
     - Image caching with NSCache
-    - UserDefaults 
-    - Dynamic font type
+    - UserDefaults implementation
+    - Dynamic font type support
