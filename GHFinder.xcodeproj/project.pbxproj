@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041217EB0606F728425E7D6B /* Pods_GHFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8786B3D4D72D9FE07434C4 /* Pods_GHFinder.framework */; };
 		A114C81A26B48AB700F3E042 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114C81926B48AB700F3E042 /* FollowerCell.swift */; };
 		A114C81D26B48BD700F3E042 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114C81C26B48BD700F3E042 /* GFAvatarImageView.swift */; };
 		A114C82326B4974600F3E042 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114C82226B4974600F3E042 /* UIView+Ext.swift */; };
@@ -71,9 +70,6 @@
 		A114C87126BFFBDF00F3E042 /* GFAlertContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainer.swift; sourceTree = "<group>"; };
 		A114C87526C0009E00F3E042 /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 		A114C87A26C01E7400F3E042 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
-		BB8786B3D4D72D9FE07434C4 /* Pods_GHFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2EC13D4F4261D8B5BFDA77D /* Pods-GHFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHFinder.release.xcconfig"; path = "Target Support Files/Pods-GHFinder/Pods-GHFinder.release.xcconfig"; sourceTree = "<group>"; };
-		EB19EDFD71BF14D51CCCB9B7 /* Pods-GHFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHFinder.debug.xcconfig"; path = "Target Support Files/Pods-GHFinder/Pods-GHFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		ED087E2C23BD8BE0002F46BB /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		ED087E2E23BD8C42002F46BB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ED29F77423BA477200919052 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
@@ -99,31 +95,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041217EB0606F728425E7D6B /* Pods_GHFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		067F97B9DBA5C8B7B0E008D7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EB19EDFD71BF14D51CCCB9B7 /* Pods-GHFinder.debug.xcconfig */,
-				D2EC13D4F4261D8B5BFDA77D /* Pods-GHFinder.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		85397BD93329DECAC0B8BA8D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BB8786B3D4D72D9FE07434C4 /* Pods_GHFinder.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		A114C81126B46CE000F3E042 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,8 +265,6 @@
 			children = (
 				EDDFE24023B6C71E00C026C3 /* GHFinder */,
 				EDDFE23F23B6C71E00C026C3 /* Products */,
-				067F97B9DBA5C8B7B0E008D7 /* Pods */,
-				85397BD93329DECAC0B8BA8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -305,9 +280,9 @@
 			isa = PBXGroup;
 			children = (
 				A114C81126B46CE000F3E042 /* Utils */,
-				ED29F78623BBB22A00919052 /* Extensions */,
 				ED34D4A123BE572F00BD418F /* Managers */,
 				ED087E2B23BD8BD2002F46BB /* Model */,
+				ED29F78623BBB22A00919052 /* Extensions */,
 				ED29F78523BBB1E100919052 /* Custom Views */,
 				ED29F78423BBB19500919052 /* Screens */,
 				ED29F78723BBB28E00919052 /* Support */,
@@ -323,11 +298,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDDFE25223B6C71E00C026C3 /* Build configuration list for PBXNativeTarget "GHFinder" */;
 			buildPhases = (
-				EEEA1A6A771ED7F0519661FD /* [CP] Check Pods Manifest.lock */,
 				EDDFE23A23B6C71E00C026C3 /* Sources */,
 				EDDFE23B23B6C71E00C026C3 /* Frameworks */,
 				EDDFE23C23B6C71E00C026C3 /* Resources */,
-				24084970B3D28AC3C83A22C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -382,48 +355,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		24084970B3D28AC3C83A22C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GHFinder/Pods-GHFinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GHFinder/Pods-GHFinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GHFinder/Pods-GHFinder-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EEEA1A6A771ED7F0519661FD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GHFinder-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EDDFE23A23B6C71E00C026C3 /* Sources */ = {
@@ -601,7 +532,6 @@
 		};
 		EDDFE25323B6C71E00C026C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB19EDFD71BF14D51CCCB9B7 /* Pods-GHFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -620,7 +550,6 @@
 		};
 		EDDFE25423B6C71E00C026C3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2EC13D4F4261D8B5BFDA77D /* Pods-GHFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
