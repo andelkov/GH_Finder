@@ -1,4 +1,6 @@
-Project covers these concepts:
+This application is made as a part of the final task on "iOS Academy" from Factory.hr.
+
+Application covers these concepts:
 
     - MVC architecture
     - Programmatically built views
